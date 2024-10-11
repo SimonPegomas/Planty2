@@ -31,7 +31,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
                 </a>
                 </div>    
             </div>
-            
             <div class="menu">
                 <nav>
                     <ul>
@@ -42,8 +41,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
                 
                 </nav>    
             </div>
-        
-            
         </header>
 <body <?php body_class(); ?>>
 
