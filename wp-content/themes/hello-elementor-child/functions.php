@@ -67,7 +67,6 @@ function custom_form_shortcode() {
                 <input type="number" name="citron" placeholder="0">
             </div>
         </div>
-
         <!-- Séparation par un trait -->
         <hr class="form-separator">
 
@@ -96,6 +95,7 @@ function custom_form_shortcode() {
                 <label for="ville">Ville</label>
                 <input type="text" id="ville" name="ville" placeholder="Votre ville">
             </div>
+
         </div>
 
         <!-- Bouton de soumission -->
@@ -108,5 +108,3 @@ function custom_form_shortcode() {
     return ob_get_clean(); 
 }
 add_shortcode('custom_form', 'custom_form_shortcode');
-
- 
