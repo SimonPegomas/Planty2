@@ -41,7 +41,6 @@ function display_admin_link() {
     }
 }
 
-
 // Fonction pour créer Short Code formulaire 
 function custom_form_shortcode() {
     ob_start(); 
@@ -67,10 +66,10 @@ function custom_form_shortcode() {
                 <input type="number" name="citron" placeholder="0">
             </div>
         </div>
-        <!-- Séparation par un trait -->
+        
         <hr class="form-separator">
 
-        <!-- Deux colonnes : informations et livraison -->
+      
         <div class="two-columns">
             <div class="column-left">
                 <h2>Vos informations</h2>

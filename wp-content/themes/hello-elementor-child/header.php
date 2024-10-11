@@ -23,7 +23,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 </head>
-
 <header>
             <div class="container-logo">
                 <div class="logo">
