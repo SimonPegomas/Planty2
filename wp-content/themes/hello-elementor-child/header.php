@@ -26,7 +26,7 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 <header>
             <div class="container-logo">
                 <div class="logo">
-                <a href="http://localhost/Planty/wordpress/home/">
+                <a href="http://localhost/Planty2/wordpress/home/">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="Planty" title="Planty" class="">
                 </a>
                 </div>    
@@ -34,9 +34,9 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="http://localhost/Planty/wordpress/nous-rencontrer/" class="menu-link"> Nous rencontrer </a></li> 
+                        <li><a href="http://localhost/Planty2/wordpress/nous-rencontrer/" class="menu-link"> Nous rencontrer </a></li> 
                         <li class="admin-link"><?php display_admin_link();  ?></li>
-						<li><a href="http://localhost/Planty/wordpress/commander/" class="commander">Commander</a></li> 
+						<li><a href="http://localhost/Planty2/wordpress/commander/" class="commander">Commander</a></li> 
                     </ul>
                 
                 </nav>    
