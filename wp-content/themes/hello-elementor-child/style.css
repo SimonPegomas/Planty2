@@ -589,6 +589,7 @@ header {
   background-color: white; /* Couleur de fond de l'en-tête */
   border-bottom: 1px solid #ddd; /* Bordure en bas de l'en-tête */
   position: relative; /* Permet de positionner le bouton à l'intérieur de l'en-tête */
+  max-width: 100%;
 }
 
 /* Conteneur du logo */
@@ -660,13 +661,14 @@ header {
 }
 
 /* Media query pour les écrans de moins de 768px */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   header {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrer le logo */
-    padding: 10px;
+    padding: 0px;
+    margin-top: 2%;
   }
 
   /* Logo centré en haut */
@@ -704,6 +706,11 @@ header {
   .admin-link {
     display: none;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+  
 }
 
 
@@ -1092,8 +1099,9 @@ input[type="submit"]:hover {
   ;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 800px) {
+   
+ 
   /* Section produits en colonne */
   .product-section {
     flex-direction: column; /* Change la direction de l'affichage en colonne */
@@ -1173,8 +1181,7 @@ input[type="submit"]:hover {
     justify-content: center;
 
   }
-
-  
+   
 }
 
 
